@@ -12,7 +12,7 @@
 예시: `BOJ 1000번: A+B`
 - **레이블**: `new problem` (`task` 타입도 함께 지정)
 - **내용**: 문제 설명을 [Markdown](https://guides.github.com/features/mastering-markdown/) 형식으로 복사하여 붙여넣어 주세요.
-- **참고:** [OJ MD 플러그인](https://chromewebstore.google.com/detail/oj-md/ofbkmnfidhpjpglbjgooomdjppeleldl)을 사용하면 BOJ 문제를 바로 Markdown 형식으로 복사할 수 있습니다.
+- **참고:** [OnlineJudge MarkDown 익스텐션](https://chromewebstore.google.com/detail/oj-md/ofbkmnfidhpjpglbjgooomdjppeleldl)을 사용하면 BOJ 문제를 바로 Markdown 형식으로 복사할 수 있습니다.
 
 ---
 
@@ -31,7 +31,20 @@
 
 ---
 
-## 3. 코드 리뷰 및 피드백
+## 3. 문제풀이 폴더 생성 규칙
+
+각 문제에 대한 풀이 코드는 별도의 폴더에 관리해 주세요. 폴더명은 아래 형식을 따릅니다:
+
+- **폴더 및 파일 이름 형식**:  `BOJ_[문제번호]/Main.java`
+    - 예시: `BOJ_1000/Main.java` (java만 대문자로 시작)
+    - 예시: `BOJ_1000/main.py`
+    - 예시: `BOJ_1000/main.cpp`
+
+폴더 내에는 문제 풀이 코드와 함께 README 파일 등을 포함하여 풀이에 대한 설명을 덧붙여 주시면 좋습니다.
+
+---
+
+## 4. 코드 리뷰 및 피드백
 
 - PR 제출 후 팀원들이 코드 리뷰를 진행합니다.
 - 리뷰어의 피드백이 있을 경우, 수정 후 다시 PR을 업데이트해 주세요.
@@ -39,22 +52,21 @@
 
 ---
 
-## 4. 커뮤니케이션
+## 5. 커뮤니케이션
 
 - 문제 관련 토론이나 질문은 **Issue 댓글**이나 팀 커뮤니케이션 채널(Slack, Discord 등)을 통해 진행해 주세요.
 - 함께 문제를 해결하는 과정에서 활발한 의견 교환을 부탁드립니다.
 
 ---
 
-## 5. 기타 기여
+## 6. 기타 기여
 
 - 새로운 아이디어, 개선 사항 등도 언제든지 환영합니다.
 - 레포지토리 관리나 도구 관련 제안이 있을 경우 Issue를 통해 공유해 주세요.
 
 ---
 
-여러분의 기여가 모여 모두가 성장하는 좋은 학습 환경이 만들어집니다.
+여러분의 기여가 모여 모두가 성장하는 좋은 학습 환경이 만들어집니다.  
 적극적인 참여 부탁드리며, 기여해 주셔서 감사합니다!
 
 Happy Hacking & Good Luck!
-
