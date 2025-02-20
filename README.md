@@ -13,6 +13,7 @@
 - **레이블**: `new problem` (`task` 타입도 함께 지정)
 - **내용**: 문제 설명을 [Markdown](https://guides.github.com/features/mastering-markdown/) 형식으로 복사하여 붙여넣어 주세요.
 - **참고:** [OnlineJudge MarkDown 익스텐션](https://chromewebstore.google.com/detail/oj-md/ofbkmnfidhpjpglbjgooomdjppeleldl)을 사용하면 BOJ 문제를 바로 Markdown 형식으로 복사할 수 있습니다.
+- `BOJ/1000` 형식으로 브랜치를 생성하여 Issue와 링크시켜주세요.
 
 ---
 
@@ -35,10 +36,10 @@
 
 각 문제에 대한 풀이 코드는 별도의 폴더에 관리해 주세요. 폴더명은 아래 형식을 따릅니다:
 
-- **폴더 및 파일 이름 형식**:  `BOJ_[문제번호]/Main.java`
-    - 예시: `BOJ_1000/Main.java` (java만 대문자로 시작)
-    - 예시: `BOJ_1000/main.py`
-    - 예시: `BOJ_1000/main.cpp`
+- **폴더 및 파일 이름 형식**:  `lib/main/src/boj/no[문제번호]/[본인 github 아이디]/Main.java`
+    - 예시: `lib/main/src/boj/no1000/parkjbdev/Main.java` (java만 대문자로 시작)
+    - 예시: `lib/main/src/boj/no1000/parkjbdev/main.py`
+    - 예시: `lib/main/src/boj/no1000/parkjbdev/main.cpp`
 
 폴더 내에는 문제 풀이 코드와 함께 README 파일 등을 포함하여 풀이에 대한 설명을 덧붙여 주시면 좋습니다.
 
