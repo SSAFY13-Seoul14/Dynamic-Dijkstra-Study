@@ -1,3 +1,4 @@
+package boj.no17142.rlagudtn;
 
 import java.util.*;
 import java.io.*;
