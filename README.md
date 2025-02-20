@@ -13,13 +13,15 @@
 - **레이블**: `new problem` (`task` 타입도 함께 지정)
 - **내용**: 문제 설명을 [Markdown](https://guides.github.com/features/mastering-markdown/) 형식으로 복사하여 붙여넣어 주세요.
 - **참고:** [OnlineJudge MarkDown 익스텐션](https://chromewebstore.google.com/detail/oj-md/ofbkmnfidhpjpglbjgooomdjppeleldl)을 사용하면 BOJ 문제를 바로 Markdown 형식으로 복사할 수 있습니다.
-- `BOJ/1000` 형식으로 브랜치를 생성하여 Issue와 링크시켜주세요.
+
+이 레포지토리를 개인 레포지토리로 포크한 뒤, `BOJ/1000` 형식으로 브랜치를 생성하여 Issue와 링크시켜주세요.
 
 ---
 
 ## 2. 문제 풀이 및 Pull Request 제출
 
 문제 풀이가 완료되면 **Pull Request (PR)**를 통해 제출해 주세요.
+
 
 - **PR 제목**: 등록된 Issue 제목과 동일하게 작성해 주세요.
 예시: `BOJ 1000번: A+B`
