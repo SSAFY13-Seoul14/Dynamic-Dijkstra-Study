@@ -1,5 +1,8 @@
+package boj.no17143.rlagudtn;
+
 import java.util.*;
 import java.io.*;
+
 public class Main {
     static int r,c,m;
     static int[] dx = {0, -1, 1, 0, 0};
@@ -46,12 +49,9 @@ public class Main {
 
             }
             move();
-
-
         }
 
         System.out.println(answer);
-
     }
 
     private static void move() {
@@ -100,8 +100,6 @@ public class Main {
         }
         arr=after;
     }
-
-
 }
 
 class Shark{
@@ -115,5 +113,4 @@ class Shark{
         this.size=size;
         this.v=v;
     }
-
 }
